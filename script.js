@@ -179,20 +179,17 @@ innerDivArray.forEach(btn => {
 
 
 
-window.addEventListener("scroll", function () {
+/*window.addEventListener("scroll", function () {
 
 let input = document.getElementById("write");
 
-if(window.scrollY > 50) {
+if(window.scrollY > 650) {
    input.style.position = "fixed";
     input.style.right = "1px";
-    input.style.top = "1px";
-} else {
+    input.style.top = "1px";} else {
     input.style.position = " static";
 } 
 
 }
 
-)
-
-
+)*/
