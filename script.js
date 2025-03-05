@@ -31,6 +31,38 @@ let hamza = document.getElementById("audio-hamza");
 let yaa = document.getElementById("audio-yaa");
 let byaa = document.getElementById("audio-byaa");
 
+// start chapter-2 //
+
+let lamalif = document.getElementById("audio-lam-alif");
+let baaalif = document.getElementById("audio-baa-alif");
+let lamhaa = document.getElementById("audio-lam-haa");
+let baakaftaa = document.getElementById("audio-baa-kaf-taa");
+let baalambaa = document.getElementById("audio-baa-lam-baa");
+let baaseen = document.getElementById("audio-baa-seen");
+let kafbaa = document.getElementById("audio-kaf-baa");
+let noonalif = document.getElementById("audio-noon-alif");
+let noonseen = document.getElementById("audio-noon-seen");
+let saajeem = document.getElementById("audio-saa-jeem");
+let saaseen = document.getElementById("audio-saa-seen");
+let taakafsaa = document.getElementById("audio-taa-kaf-saa");
+let taaseen = document.getElementById("audio-taa-seen");
+let yaaseen = document.getElementById("audio-yaa-seen");
+let saaalif = document.getElementById("audio-saa-alif");
+let yaaalif = document.getElementById("audio-yaa-alif");
+let baajeem = document.getElementById("audio-baa-jeem");
+let baameem = document.getElementById("audio-baa-meem");
+let baayaa = document.getElementById("audio-baa-yaa");
+let noonkha = document.getElementById("audio-noon-kha");
+let noonmeem = document.getElementById("audio-noon-meem");
+let noonyaa = document.getElementById("audio-noon-yaa");
+let taahaa = document.getElementById("audio-taa-haa");
+let taameem = document.getElementById("audio-taa-meem");
+let yaahaa = document.getElementById("audio-yaa-haa");
+let yaameem = document.getElementById("audio-yaa-meem");
+let yaayaa = document.getElementById("audio-yaa-yaa");
+let kafalif = document.getElementById("audio-kaf-alif");
+
+
 
 
 
@@ -163,6 +195,122 @@ innerDivArray.forEach(btn => {
        if(write.value === "یے"){
            
         byaa.play(); 
+       }
+       if(write.value === "لا"){
+           
+        lamalif.play(); 
+       }
+       if(write.value === "با"){
+           
+        baaalif.play(); 
+       }
+       if(write.value === "لح"){
+           
+        lamhaa.play(); 
+       }
+       if(write.value === "ثا"){
+           
+        saaalif.play(); 
+       }
+       if(write.value === "بكت"){
+           
+        baakaftaa.play(); 
+       }
+       if(write.value === "بلب"){
+           
+        baalambaa.play(); 
+       }
+       if(write.value === "بس"){
+           
+        baaseen.play(); 
+       }
+       if(write.value === "كب"){
+           
+        kafbaa.play(); 
+       }
+       if(write.value === "نا"){
+           
+        noonalif.play(); 
+       }
+       if(write.value === "نس"){
+           
+        noonseen.play(); 
+       }
+       if(write.value === "ثج"){
+           
+        saajeem.play(); 
+       }
+       if(write.value === "ثس"){
+           
+        saaseen.play(); 
+       }
+       if(write.value === "تكث"){
+           
+        taakafsaa.play(); 
+       }
+       if(write.value === "تس"){
+           
+        taaseen.play(); 
+       }
+       if(write.value === "يا"){
+           
+        yaaalif.play(); 
+       }
+       if(write.value === "يس"){
+           
+        yaaseen.play(); 
+       }
+       if(write.value === "بج"){
+           
+        baajeem.play(); 
+       }
+       if(write.value === "بم"){
+           
+        baameem.play(); 
+       }
+       if(write.value === "بى"){
+           
+        baayaa.play(); 
+       }
+       if(write.value === "نخ"){
+           
+        noonkha.play(); 
+       }
+       if(write.value === "نم"){
+           
+        noonmeem.play(); 
+       }
+       if(write.value === "ني"){
+           
+        noonyaa.play(); 
+       }
+       if(write.value === "يم"){
+           
+        yaameem.play(); 
+       }
+       if(write.value === "تح"){
+           
+        taahaa.play(); 
+       }
+       if(write.value === "يح"){
+           
+        yaahaa.play(); 
+       }
+       if(write.value === "ىي"){
+           
+        yaayaa.play(); 
+       }
+       if(write.value === "تم"){
+           
+        taameem.play(); 
+       }
+       if(write.value === "كا"){
+           
+        kafalif.play(); 
+       }
+       if(write.value === "ك"){
+           
+        kaaaaf.play(); 
        }
        
        else{
