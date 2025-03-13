@@ -1,0 +1,304 @@
+.main .inner-le-2 {
+    width: 55px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+     background: #ffffff; /* solid white background */
+     border-left: 5px solid #ff7e5f; /* colorful left border */
+     padding: 10px;
+     font-size: 25px;
+     font-weight: bold;
+     line-height: 1.6;
+     color: #333;
+     transition: all 0.3s ease; /* smooth transition on hover */
+   }
+   
+   .main .inner-le-2:hover {
+     background: #0dcaf0; /* change background on hover */
+     color: white; /* text color on hover */
+     transform: scale(1.05); /* slight zoom effect */
+   }
+   
+   /* Optional: Style for headings inside inner div */
+   .main .inner-le-2 h2 {
+     font-size: 24px;
+     color: #ff7e5f;
+     margin-bottom: 10px;
+   }
+   
+   /* Optional: Style for text inside inner div */
+   .container .inner-le-2 p {
+     font-size: 16px;
+     color: #555;
+   }
+
+
+
+
+
+   #write-le-2 {
+    width: 100%;
+    height: 130px;
+    text-align:center;
+    padding: 15px;
+    font-size: 100px;
+    color: #333;
+    background: white;
+    border: 2px solid #0dcaf0;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  #write-le-2:focus {
+    
+    align-items: center;
+    border-color: #feb47b;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+    background: #fff8e1;
+  }
+  
+  /* Optional: Style for placeholder text */
+  #write-le-2::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+
+
+
+   /*cheapter-2 innerdiv*/
+
+
+   .main .innerle-2 {
+    width: 65px;
+    height: 55px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+     background: #ffffff; /* solid white background */
+     border-left: 5px solid #ff7e5f; /* colorful left border */
+     padding: 10px;
+     font-size: 25px;
+     font-weight: bold;
+     line-height: 1.6;
+     color: #333;
+     transition: all 0.3s ease; /* smooth transition on hover */
+   }
+   
+   .main .innerle-2:hover {
+     background: #0dcaf0; /* change background on hover */
+     color: white; /* text color on hover */
+     transform: scale(1.05); /* slight zoom effect */
+   }
+   
+   /* Optional: Style for headings inside inner div */
+   .main .innerle-2 h2 {
+     font-size: 24px;
+     color: #ff7e5f;
+     margin-bottom: 10px;
+   }
+   
+   /* Optional: Style for text inside inner div */
+   .container .innerle-2 p {
+     font-size: 16px;
+     color: #555;
+   }
+
+
+
+   
+   #writele-2 {
+    width: 100%;
+    height: 130px;
+    text-align:center;
+    padding: 15px;
+    font-size: 100px;
+    color: #333;
+    background: white;
+    border: 2px solid #0dcaf0;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  #writele-2:focus {
+    
+    align-items: center;
+    border-color: #feb47b;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+    background: #fff8e1;
+  }
+  
+  /* Optional: Style for placeholder text */
+  #writele-2::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+
+  /*   lesson-3 */
+
+  .main .innerles-3 {
+    width: 110px;
+    height: 65px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+     background: #ffffff; /* solid white background */
+     border-left: 5px solid #ff7e5f; /* colorful left border */
+     padding: 10px;
+     font-size: 30px;
+     font-weight: bold;
+     line-height: 1.6;
+     color: #333;
+     transition: all 0.3s ease; /* smooth transition on hover */
+   }
+   
+   .main .innerles-3:hover {
+     background: #0dcaf0; /* change background on hover */
+     color: white; /* text color on hover */
+     transform: scale(1.05); /* slight zoom effect */
+   }
+   
+   /* Optional: Style for headings inside inner div */
+   .main .innerles-3 h2 {
+     font-size: 24px;
+     color: #ff7e5f;
+     margin-bottom: 10px;
+   }
+   
+   /* Optional: Style for text inside inner div */
+   .container .innerles-3 p {
+     font-size: 16px;
+     color: #555;
+   }
+
+
+   #writeles-3 {
+    width: 110%;
+    height: 130px;
+    text-align:center;
+    padding: 15px;
+    font-size: 70px;
+    color: #333;
+    background: white;
+    border: 2px solid #0dcaf0;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  #writeles-3:focus {
+    
+    align-items: center;
+    border-color: #feb47b;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+    background: #fff8e1;
+  }
+  
+  /* Optional: Style for placeholder text */
+  #writeles-3::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-style: italic;
+  }
+
+
+
+
+
+
+
+
+
+  /*  start lesson-4 */
+
+
+  .main .innerles-4 {
+    width: 140px;
+    height: 65px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+     background: #ffffff; /* solid white background */
+     border-left: 5px solid #ff7e5f; /* colorful left border */
+     padding: 10px;
+     font-size: 25px;
+     font-weight: bold;
+     line-height: 1.6;
+     color: #333;
+     transition: all 0.3s ease; /* smooth transition on hover */
+   }
+   
+   .main .innerles-4:hover {
+     background: #0dcaf0; /* change background on hover */
+     color: white; /* text color on hover */
+     transform: scale(1.05); /* slight zoom effect */
+   }
+   
+   /* Optional: Style for headings inside inner div */
+   .main .innerles-4 h2 {
+     font-size: 24px;
+     color: #ff7e5f;
+     margin-bottom: 10px;
+   }
+   
+   /* Optional: Style for text inside inner div */
+   .container .innerles-4 p {
+     font-size: 16px;
+     color: #555;
+   }
+
+
+   #writeles-4 {
+    width: 100%;
+    height: 130px;
+    text-align:center;
+    padding: 15px;
+    font-size: 70px;
+    color: #333;
+    background: white;
+    border: 2px solid #0dcaf0;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  #writeles-4:focus {
+    
+    align-items: center;
+    border-color: #feb47b;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+    background: #fff8e1;
+  }
+  
+  /* Optional: Style for placeholder text */
+  #writeles-4::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-style: italic;
+  }

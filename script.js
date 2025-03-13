@@ -313,6 +313,7 @@ innerDivArray.forEach(btn => {
         kaaaaf.play(); 
        }
        
+       
        else{
         console.log("wrong")
        }
@@ -341,3 +342,8 @@ if(window.scrollY > 650) {
 }
 
 )*/
+
+
+
+
+
