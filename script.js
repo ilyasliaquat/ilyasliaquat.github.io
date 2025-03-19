@@ -344,6 +344,44 @@ if(window.scrollY > 650) {
 )*/
 
 
+// this fuction used only lesson 4 //
+
+window.addEventListener("scroll", function () {
+
+    let input = document.getElementById("writeles-4");
+    
+    if(window.scrollY > 650) {
+       input.style.position = "fixed";
+        input.style.right = "2px";
+        
+        input.style.top = "80px";} else {
+        input.style.position = " static";
+    } 
+    
+    })
+
+    window.addEventListener("scroll", function () {
+
+        let input = document.getElementById("writeles-5");
+        
+        if(window.scrollY > 740) {
+           input.style.position = "fixed";
+            input.style.right = "2px";
+            
+            input.style.top = "80px";} else {
+            input.style.position = " static";
+        } 
+        
+        })
+ 
+
+
+
+
+
+
+
+
 
 
 

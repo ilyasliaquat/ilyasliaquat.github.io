@@ -444,6 +444,32 @@ let innerDivLessFour = document.querySelectorAll(".innerles-4");
 
 
 
+let aieenzabar = document.getElementById("audio-aieen-zabar");
+let baazabar = document.getElementById("audio-baa-zabar");
+let dalzabar = document.getElementById("audio-dal-zabar");
+let faazabar = document.getElementById("audio-faa-zabar");
+let haaazabar = document.getElementById("audio-haaa-zabar");
+let hamzazabar = document.getElementById("audio-hamza-zabar");
+let kaafzabar = document.getElementById("audio-kaaf-zabar");
+let koaafzabar = document.getElementById("audio-koaaf-zabar");
+let lamzabar = document.getElementById("audio-lam-zabar");
+let meemzabar = document.getElementById("audio-meem-zabar");
+let noonzabar = document.getElementById("audio-noon-zabar");
+let raazabar = document.getElementById("audio-raa-zabar");
+let saazabarsaa = document.getElementById("audio-saa-zabar-saa");
+let seenzabar = document.getElementById("audio-seen-zabar");
+let sheenzabar = document.getElementById("audio-sheen-zabar");
+let soaadzabar = document.getElementById("audio-soaad-zabar");
+let taazabar = document.getElementById("audio-taa-zabar");
+let toaazabar = document.getElementById("audio-toaa-zabar");
+let waozabar = document.getElementById("audio-wao-zabar");
+let yaazabar = document.getElementById("audio-yaa-zabar");
+let zaazabar = document.getElementById("audio-zaa-zabar");
+let zalzabar = document.getElementById("audio-zal-zabar");
+let zoaazabar = document.getElementById("audio-zoaa-zabar");
+let zoaadzabar = document.getElementById("audio-zoaad-zabar");
+
+
 
 
 
@@ -460,6 +486,319 @@ innerDivLessFourArray.forEach(btn => {
         
         writeLessFour.value = e.target.innerText;
 
+
+        if(writeLessFour.value === "عَ عِ عُ"){
+           
+         aieenzabar.play(); 
+        }
+        if(writeLessFour.value === "بَ بِ بُ"){
+           
+         baazabar.play(); 
+        }
+        if(writeLessFour.value === "دَ دِ دُ"){
+           
+         dalzabar.play(); 
+        }
+        if(writeLessFour.value === "فَ فِ فُ"){
+           
+         faazabar.play(); 
+        }
+        if(writeLessFour.value === "هَ هِ هُ"){
+           
+         haaazabar.play(); 
+        }
+        if(writeLessFour.value === "اَ اِ اُ"){
+           
+         hamzazabar.play(); 
+        }
+        if(writeLessFour.value === "كَ كِ كُ"){
+           
+         kaafzabar.play(); 
+        }
+        if(writeLessFour.value === "قَ قِ قُ"){
+           
+         koaafzabar.play(); 
+        }
+        if(writeLessFour.value === "لَ لِ لُ"){
+           
+         lamzabar.play(); 
+        }
+        if(writeLessFour.value === "مَ مِ مُ"){
+           
+         meemzabar.play(); 
+        }
+        if(writeLessFour.value === "نَ نِ نُ"){
+           
+         noonzabar.play(); 
+        }
+        if(writeLessFour.value === "رَ رِ رُ"){
+           
+         raazabar.play(); 
+        }
+        if(writeLessFour.value === "ثَ ثِ ثُ"){
+           
+         saazabarsaa.play(); 
+        }
+        if(writeLessFour.value === "سَ سِ سُ"){
+           
+         seenzabar.play(); 
+        }
+        if(writeLessFour.value === "شَ شِ شُ"){
+           
+         sheenzabar.play(); 
+        }
+        if(writeLessFour.value === "صَ صِ صُ"){
+           
+         soaadzabar.play(); 
+        }
+        if(writeLessFour.value === "تَ تِ تُ"){
+           
+         taazabar.play(); 
+        }
+        if(writeLessFour.value === "طَ طِ طُ"){
+           
+         toaazabar.play(); 
+        }
+        if(writeLessFour.value === "وَ وِ وُ"){
+           
+         waozabar.play(); 
+        }
+        if(writeLessFour.value === "ىَ ىِ ىُ"){
+           
+         yaazabar.play(); 
+        }
+        if(writeLessFour.value === "زَ زِ زُ"){
+           
+         zaazabar.play(); 
+        }
+        if(writeLessFour.value === "ذَ ذِ ذُ"){
+           
+         zalzabar.play(); 
+        }
+        if(writeLessFour.value === "ظَ ظِ ظُ"){
+           
+         zoaazabar.play(); 
+        }
+        if(writeLessFour.value === "ضَ ضِ ضُ"){
+           
+         zoaadzabar.play(); 
+        }
+
+
+
+        
+        
+        
+        else{
+         console.log("wrong")
+        }  
+
+
+
+
+
     })
 })
 
+
+
+//    start lesson-5    //
+
+
+let writeLesFive = document.getElementById("writeles-5");
+let innerDivLesFive = document.querySelectorAll(".innerles-5");
+
+
+
+let aieendozabar = document.getElementById("audio-aieen-dozabar");
+let baadozabar = document.getElementById("audio-baa-dozabar");
+let daldozabar = document.getElementById("audio-dal-dozabar");
+let faadozabar = document.getElementById("audio-faa-dozabar");
+let haaadozabar = document.getElementById("audio-haaa-dozabar");
+let hamzadozabar = document.getElementById("audio-hamza-dozabar");
+let kaafdozabar = document.getElementById("audio-kaaf-dozabar");
+let koaafdozabar = document.getElementById("audio-koaaf-dozabar");
+let lamdozabar = document.getElementById("audio-lam-dozabar");
+let meemdozabar = document.getElementById("audio-meem-dozabar");
+let noondozabar = document.getElementById("audio-noon-dozabar");
+let raadozabar = document.getElementById("audio-raa-dozabar");
+let saadozabar = document.getElementById("audio-saa-dozabar");
+let seendozabar = document.getElementById("audio-seen-dozabar");
+let sheendozabar = document.getElementById("audio-sheen-dozabar");
+let soaaddozabar = document.getElementById("audio-soaad-dozabar");
+let taadozabar = document.getElementById("audio-taa-dozabar");
+let toaadozabar = document.getElementById("audio-toaa-dozabar");
+let waodozabar = document.getElementById("audio-wao-dozabar");
+let yaadozabar = document.getElementById("audio-yaa-dozabar");
+let zaadozabar = document.getElementById("audio-zaaa-dozabar");
+let zaldozabar = document.getElementById("audio-zal-dozabar");
+let zoaadozabar = document.getElementById("audio-zoaa-dozabar");
+let zoaaddozabar = document.getElementById("audio-zoaad-dozabar");
+let khadozabar = document.getElementById("audio-kha-dozabar");
+let jeemdozabar = document.getElementById("audio-jeem-dozabar");
+let ghaieendozabar = document.getElementById("audio-ghaieen-dozabar");
+let haadozabar = document.getElementById("audio-haa-dozabar");
+
+
+
+
+let innerDivLesFiveArray = Array.from(innerDivLesFive);
+
+ let stringlesfive = " ";
+
+ innerDivLesFiveArray.forEach(btn => {
+    
+    btn.addEventListener("click", (e) => {
+
+      writeLesFive.value = e.target.innerText;
+
+
+      if(writeLesFive.value === "عاً عِِِ عُُ"){
+           
+         aieendozabar.play(); 
+        }
+        if(writeLesFive.value === "باً بِِ بُُ"){
+           
+         baadozabar.play(); 
+        }
+        if(writeLesFive.value === "دىً دِِ دُُ"){
+           
+         daldozabar.play(); 
+        }
+        if(writeLesFive.value === "ذىً ذِِ ذُُ"){
+           
+         zaldozabar.play(); 
+        }
+        if(writeLesFive.value === "زاً زِِ زُُ"){
+           
+         zaadozabar.play(); 
+        }
+        if(writeLesFive.value === "ساً سِِ سُُ"){
+           
+         seendozabar.play(); 
+        }
+        if(writeLesFive.value === "ضاً ضِِ ضُُ"){
+           
+         zoaaddozabar.play(); 
+        }
+        if(writeLesFive.value === "ياً ىِِ ىُُ"){
+           
+         yaadozabar.play(); 
+        }
+        if(writeLesFive.value === "واً وِِ وُُ"){
+           
+         waodozabar.play(); 
+        }
+        if(writeLesFive.value === "طاً طِِ طُُ"){
+           
+         toaadozabar.play(); 
+        }
+        if(writeLesFive.value === "ةً تِِ تُُ"){
+           
+         taadozabar.play(); 
+        }
+        if(writeLesFive.value === "صاً صِِ صُُ"){
+           
+         soaaddozabar.play(); 
+        }
+        if(writeLesFive.value === "شاً شِِ شُُ"){
+           
+         sheendozabar.play(); 
+        }
+        if(writeLesFive.value === "ثاً ثِِ ثُُ"){
+           
+         saadozabar.play(); 
+        }
+        if(writeLesFive.value === "راً رِِ رُُ"){
+           
+         raadozabar.play(); 
+        }
+        if(writeLesFive.value === "ناً نِِ نُُ"){
+           
+         noondozabar.play(); 
+        }
+        if(writeLesFive.value === "ماً مِِ مُُ"){
+           
+         meemdozabar.play(); 
+        }
+        if(writeLesFive.value === "لاً لِِ لُُ"){
+           
+         lamdozabar.play(); 
+        }
+        if(writeLesFive.value === "قاً قِِ قُُ"){
+           
+         koaafdozabar.play(); 
+        }
+        if(writeLesFive.value === "كاً كِِ كُُ"){
+           
+         kaafdozabar.play(); 
+        }
+        if(writeLesFive.value === "خاً خِِ خُُ"){
+           
+         khadozabar.play(); 
+        }
+        if(writeLesFive.value === "ءً ءِِ ءُُ"){
+           
+         hamzadozabar.play(); 
+        }
+        if(writeLesFive.value === "جاً جِِ جُُ"){
+           
+         jeemdozabar.play(); 
+        }
+        if(writeLesFive.value === "هاً هـِِ هـُُ"){
+           
+         haaadozabar.play(); 
+        }
+        if(writeLesFive.value === "غاً غِِ غُُ"){
+           
+         ghaieendozabar.play(); 
+        }
+        if(writeLesFive.value === "فاً فِِ فُُ" ){
+           
+         faadozabar.play(); 
+        }
+        if(writeLesFive.value === "زاً زِِ زُُ" ){
+           
+         zaadozabar.play(); 
+        }
+        if(writeLesFive.value === "جاً جِِ جُُ" ){
+           
+         jeemdozabar.play(); 
+        }
+        if(writeLesFive.value === "حاً حِِِ حُُ" ){
+           
+         haadozabar.play(); 
+        }
+       
+       
+       
+        
+
+
+
+        
+        
+        
+        else{
+         console.log("wrong")
+        }
+
+
+
+    })
+   })
+   
+
+
+
+   
+
+
+   
+
+
+
+
+
+
+   
