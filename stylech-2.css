@@ -6,7 +6,6 @@
 
 
 
-
 .main .inner-le-2 {
     width: 55px;
     height: 50px;
@@ -254,6 +253,7 @@
      padding: 10px;
      font-size: 23px;
      font-weight: bold;
+     
      line-height: 1.6;
      color: #333;
      transition: all 0.3s ease; /* smooth transition on hover */
@@ -286,6 +286,7 @@
     padding: 15px;
     font-size: 65px;
     overflow: hidden;
+    
     
     
     color: #333;
@@ -350,6 +351,7 @@
      padding: 10px;
      font-size: 23px;
      font-weight: bold;
+     
      line-height: 1.6;
      color: #333;
      transition: all 0.3s ease; /* smooth transition on hover */
@@ -382,6 +384,7 @@
     padding: 15px;
     font-size: 65px;
     overflow: hidden;
+
     
     
     color: #333;
@@ -426,6 +429,762 @@
   }
 
 
+
+
+  /*   start lesson-6 */
+
+
+
+
+  .main .innerles-6 {
+    width: 145px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+     background: #ffffff; /* solid white background */
+     border-left: 5px solid #ff7e5f; /* colorful left border */
+     padding: 10px;
+     font-size: 23px;
+     font-weight: bold;
+     line-height: 1.6;
+     color: #333;
+     transition: all 0.3s ease; /* smooth transition on hover */
+   }
+   
+   .main .innerles-6:hover {
+     background: #0dcaf0; /* change background on hover */
+     color: white; /* text color on hover */
+     transform: scale(1.05); /* slight zoom effect */
+   }
+   
+   /* Optional: Style for headings inside inner div */
+   .main .innerles-6 h2 {
+     font-size: 24px;
+     color: #ff7e5f;
+     margin-bottom: 10px;
+   }
+   
+   /* Optional: Style for text inside inner div */
+   .container .innerles-6 p {
+     font-size: 16px;
+     color: #555;
+   }
+
+
+   #writeles-6 {
+    width: 100%;
+    height: 130px;
+    text-align:center;
+    padding: 15px;
+    font-size: 65px;
+    overflow: hidden;
+    
+    
+    color: #333;
+    background: white;
+    border: 2px solid #0dcaf0;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  #writeles-6:focus {
+    
+    align-items: center;
+    border-color: #feb47b;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+    background: #fff8e1;
+  }
+  
+  /* Optional: Style for placeholder text */
+  #writeles-6::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-style: italic;
+    
+  }
+
+
+
+  #containerles-6 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+  }
+
+
+
+
+
+
+
+/* start lesson - 7   */
+
+
+
+
+.main .innerles-7 {
+  width: 145px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   background: #ffffff; /* solid white background */
+   border-left: 5px solid #ff7e5f; /* colorful left border */
+   padding: 10px;
+   font-size: 23px;
+   font-weight: bold;
+   line-height: 1.6;
+   color: #333;
+   transition: all 0.3s ease; /* smooth transition on hover */
+ }
+ 
+ .main .innerles-7:hover {
+   background: #0dcaf0; /* change background on hover */
+   color: white; /* text color on hover */
+   transform: scale(1.05); /* slight zoom effect */
+ }
+ 
+ /* Optional: Style for headings inside inner div */
+ .main .innerles-7 h2 {
+   font-size: 24px;
+   color: #ff7e5f;
+   margin-bottom: 10px;
+ }
+ 
+ /* Optional: Style for text inside inner div */
+ .container .innerles-7 p {
+   font-size: 16px;
+   color: #555;
+ }
+
+
+ #writeles-7 {
+  width: 100%;
+  height: 130px;
+  text-align:center;
+  padding: 15px;
+  font-size: 65px;
+  overflow: hidden;
+  
+  
+  color: #333;
+  background: white;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#writeles-7:focus {
+  
+  align-items: center;
+  border-color: #feb47b;
+  box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+  background: #fff8e1;
+}
+
+/* Optional: Style for placeholder text */
+#writeles-7::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-style: italic;
+  
+}
+
+
+
+#containerles-7 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+/* start lesson - 8 */
+
+
+.main .innerles-8 {
+  width: 145px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   background: #ffffff; /* solid white background */
+   border-left: 5px solid #ff7e5f; /* colorful left border */
+   padding: 10px;
+   font-size: 23px;
+   font-weight: bold;
+   line-height: 1.6;
+   color: #333;
+   transition: all 0.3s ease; /* smooth transition on hover */
+ }
+ 
+ .main .innerles-8:hover {
+   background: #0dcaf0; /* change background on hover */
+   color: white; /* text color on hover */
+   transform: scale(1.05); /* slight zoom effect */
+ }
+ 
+ /* Optional: Style for headings inside inner div */
+ .main .innerles-8 h2 {
+   font-size: 24px;
+   color: #ff7e5f;
+   margin-bottom: 10px;
+ }
+ 
+ /* Optional: Style for text inside inner div */
+ .container .innerles-8 p {
+   font-size: 16px;
+   color: #555;
+ }
+
+
+ #writeles-8 {
+  width: 100%;
+  height: 130px;
+  text-align:center;
+  padding: 15px;
+  font-size: 65px;
+  overflow: hidden;
+  
+  
+  color: #333;
+  background: white;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#writeles-8:focus {
+  
+  align-items: center;
+  border-color: #feb47b;
+  box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+  background: #fff8e1;
+}
+
+/* Optional: Style for placeholder text */
+#writeles-8::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-style: italic;
+  
+}
+
+
+
+#containerles-8 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+/*  statrt lesson- 9 */
+
+
+
+.main .innerles-9 {
+  width: 145px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   background: #ffffff; /* solid white background */
+   border-left: 5px solid #ff7e5f; /* colorful left border */
+   padding: 10px;
+   font-size: 23px;
+   font-weight: bold;
+   line-height: 1.6;
+   color: #333;
+   transition: all 0.3s ease; /* smooth transition on hover */
+ }
+ 
+ .main .innerles-9:hover {
+   background: #0dcaf0; /* change background on hover */
+   color: white; /* text color on hover */
+   transform: scale(1.05); /* slight zoom effect */
+ }
+ 
+ /* Optional: Style for headings inside inner div */
+ .main .innerles-9 h2 {
+   font-size: 24px;
+   color: #ff7e5f;
+   margin-bottom: 10px;
+ }
+ 
+ /* Optional: Style for text inside inner div */
+ .container .innerles-9 p {
+   font-size: 16px;
+   color: #555;
+ }
+
+
+ #writeles-9 {
+  width: 100%;
+  height: 130px;
+  text-align:center;
+  padding: 15px;
+  font-size: 65px;
+  overflow: hidden;
+  
+  
+  color: #333;
+  background: white;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#writeles-9:focus {
+  
+  align-items: center;
+  border-color: #feb47b;
+  box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+  background: #fff8e1;
+}
+
+/* Optional: Style for placeholder text */
+#writeles-9::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-style: italic;
+  
+}
+
+
+
+#containerles-9 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+/*  start lesson-10 */
+
+.main .innerles-10 {
+  width: 120px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   background: #ffffff; /* solid white background */
+   border-left: 5px solid #ff7e5f; /* colorful left border */
+   padding: 10px;
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 1.6;
+   color: #333;
+   transition: all 0.3s ease; /* smooth transition on hover */
+ }
+ 
+ .main .innerles-10:hover {
+   background: #0dcaf0; /* change background on hover */
+   color: white; /* text color on hover */
+   transform: scale(1.05); /* slight zoom effect */
+ }
+ 
+ /* Optional: Style for headings inside inner div */
+ .main .innerles-10 h2 {
+   font-size: 24px;
+   color: #ff7e5f;
+   margin-bottom: 10px;
+ }
+ 
+ /* Optional: Style for text inside inner div */
+ .container .innerles-10 p {
+   font-size: 16px;
+   color: #555;
+ }
+
+
+ #writeles-10 {
+  width: 100%;
+  height: 130px;
+  text-align:center;
+  padding: 15px;
+  font-size: 65px;
+  overflow: hidden;
+  
+  
+  color: #333;
+  background: white;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#writeles-10:focus {
+  
+  align-items: center;
+  border-color: #feb47b;
+  box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+  background: #fff8e1;
+}
+
+/* Optional: Style for placeholder text */
+#writeles-10::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-style: italic;
+  
+}
+
+
+
+#containerles-4 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* start lesson -11 */
+
+
+
+
+
+.main .innerles-11 {
+  width: 155px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   background: #ffffff; /* solid white background */
+   border-left: 5px solid #ff7e5f; /* colorful left border */
+   padding: 10px;
+   font-size: 23px;
+   font-weight: bold;
+   line-height: 1.6;
+   color: #333;
+   transition: all 0.3s ease; /* smooth transition on hover */
+ }
+ 
+ .main .innerles-11:hover {
+   background: #0dcaf0; /* change background on hover */
+   color: white; /* text color on hover */
+   transform: scale(1.05); /* slight zoom effect */
+ }
+ 
+ /* Optional: Style for headings inside inner div */
+ .main .innerles-11 h2 {
+   font-size: 24px;
+   color: #ff7e5f;
+   margin-bottom: 10px;
+ }
+ 
+ /* Optional: Style for text inside inner div */
+ .container .innerles-11 p {
+   font-size: 16px;
+   color: #555;
+ }
+
+
+ #writeles-11 {
+  width: 100%;
+  height: 130px;
+  text-align:center;
+  padding: 15px;
+  font-size: 65px;
+  overflow: hidden;
+  
+  
+  color: #333;
+  background: white;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#writeles-11:focus {
+  
+  align-items: center;
+  border-color: #feb47b;
+  box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+  background: #fff8e1;
+}
+
+/* Optional: Style for placeholder text */
+#writeles-11::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-style: italic;
+  
+}
+
+
+
+#containerles-11 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+/*   start lesson -12  */
+
+
+
+.main .innerles-12 {
+  width: 120px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   background: #ffffff; /* solid white background */
+   border-left: 5px solid #ff7e5f; /* colorful left border */
+   padding: 10px;
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 1.6;
+   color: #333;
+   transition: all 0.3s ease; /* smooth transition on hover */
+ }
+ 
+ .main .innerles-12:hover {
+   background: #0dcaf0; /* change background on hover */
+   color: white; /* text color on hover */
+   transform: scale(1.05); /* slight zoom effect */
+ }
+ 
+ /* Optional: Style for headings inside inner div */
+ .main .innerles-12 h2 {
+   font-size: 24px;
+   color: #ff7e5f;
+   margin-bottom: 10px;
+ }
+ 
+ /* Optional: Style for text inside inner div */
+ .container .innerles-12 p {
+   font-size: 16px;
+   color: #555;
+ }
+
+
+ #writeles-12 {
+  width: 100%;
+  height: 130px;
+  text-align:center;
+  padding: 15px;
+  font-size: 65px;
+  overflow: hidden;
+  
+  
+  color: #333;
+  background: white;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#writeles-12:focus {
+  
+  align-items: center;
+  border-color: #feb47b;
+  box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+  background: #fff8e1;
+}
+
+/* Optional: Style for placeholder text */
+#writeles-12::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-style: italic;
+  
+}
+
+
+
+#containerles-12 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* start lesson-13 */
+
+
+
+.main .innerles-13 {
+  width: 165px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+   background: #ffffff; /* solid white background */
+   border-left: 5px solid #ff7e5f; /* colorful left border */
+   padding: 10px;
+   font-size: 35px;
+   font-weight: bold;
+   font-family: tajawal;
+   line-height: 1.6;
+   color: #333;
+   transition: all 0.3s ease; /* smooth transition on hover */
+ }
+ 
+ .main .innerles-13:hover {
+   background: #0dcaf0; /* change background on hover */
+   color: white; /* text color on hover */
+   transform: scale(1.05); /* slight zoom effect */
+ }
+ 
+ /* Optional: Style for headings inside inner div */
+ .main .innerles-13 h2 {
+   font-size: 24px;
+   color: #ff7e5f;
+   margin-bottom: 10px;
+ }
+ 
+ /* Optional: Style for text inside inner div */
+ .container .innerles-13 p {
+   font-size: 16px;
+   color: #555;
+ }
+
+
+ #writeles-13 {
+  width: 100%;
+  height: 130px;
+  text-align:center;
+  padding: 15px;
+  font-size: 65px;
+  
+  
+  
+  color: #333;
+  background: white;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+#writeles-13:focus {
+  
+  align-items: center;
+  border-color: #feb47b;
+  box-shadow: 0 0 10px rgba(255, 126, 95, 0.6);
+  background: #fff8e1;
+}
+
+/* Optional: Style for placeholder text */
+#writeles-13::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-style: italic;
+  
+}
+
+
+
+#containerles-13 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: linear-gradient(to right, #0dcaf0, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
 
 
 

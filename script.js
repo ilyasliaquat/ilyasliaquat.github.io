@@ -328,51 +328,211 @@ innerDivArray.forEach(btn => {
 
 
 
-/*window.addEventListener("scroll", function () {
 
-let input = document.getElementById("write");
-
-if(window.scrollY > 650) {
-   input.style.position = "fixed";
-    input.style.right = "1px";
-    input.style.top = "1px";} else {
-    input.style.position = " static";
-} 
-
-}
-
-)*/
 
 
 // this fuction used only lesson 4 //
 
-window.addEventListener("scroll", function () {
-
-    let input = document.getElementById("writeles-4");
-    
-    if(window.scrollY > 650) {
-       input.style.position = "fixed";
-        input.style.right = "2px";
-        
-        input.style.top = "80px";} else {
-        input.style.position = " static";
-    } 
-    
-    })
-
+document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
+        let input = document.getElementById("writeles-4");
+        
+        if (input) {  // Check if input is not null
+            if (window.scrollY > 740) {
+                input.style.position = "fixed";
+                input.style.right = "2px";
+                input.style.top = "79px";
+            } else {
+                input.style.position = "static";
+            }
+        }
+    });
+});
+    // this is used for lesson-5 //
 
-        let input = document.getElementById("writeles-5");
-        
-        if(window.scrollY > 740) {
-           input.style.position = "fixed";
-            input.style.right = "2px";
+    document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", function () {
+            let input = document.getElementById("writeles-5");
             
-            input.style.top = "80px";} else {
-            input.style.position = " static";
-        } 
-        
-        })
+            if (input) {  // Check if input is not null
+                if (window.scrollY > 740) {
+                    input.style.position = "fixed";
+                    input.style.right = "2px";
+                    input.style.top = "79px";
+                } else {
+                    input.style.position = "static";
+                }
+            }
+        });
+    });
+
+
+        // this is used for lesson -6  //
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            window.addEventListener("scroll", function () {
+                let input = document.getElementById("writeles-6");
+                
+                if (input) {  // Check if input is not null
+                    if (window.scrollY > 740) {
+                        input.style.position = "fixed";
+                        input.style.right = "2px";
+                        input.style.top = "79px";
+                    } else {
+                        input.style.position = "static";
+                    }
+                }
+            });
+        });
+
+
+
+
+            // start lesson - 7 //
+
+
+
+            document.addEventListener("DOMContentLoaded", function () {
+                window.addEventListener("scroll", function () {
+                    let input = document.getElementById("writeles-7");
+                    
+                    if (input) {  // Check if input is not null
+                        if (window.scrollY > 740) {
+                            input.style.position = "fixed";
+                            input.style.right = "2px";
+                            input.style.top = "79px";
+                        } else {
+                            input.style.position = "static";
+                        }
+                    }
+                });
+            });
+
+
+                
+
+                //start lesson-8 //
+
+
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    window.addEventListener("scroll", function () {
+                        let input = document.getElementById("writeles-8");
+                        
+                        if (input) {  // Check if input is not null
+                            if (window.scrollY > 740) {
+                                input.style.position = "fixed";
+                                input.style.right = "2px";
+                                input.style.top = "79px";
+                            } else {
+                                input.style.position = "static";
+                            }
+                        }
+                    });
+                });
+
+                // start lesson -9  //
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    window.addEventListener("scroll", function () {
+                        let input = document.getElementById("writeles-9");
+                        
+                        if (input) {  // Check if input is not null
+                            if (window.scrollY > 740) {
+                                input.style.position = "fixed";
+                                input.style.right = "2px";
+                                input.style.top = "79px";
+                            } else {
+                                input.style.position = "static";
+                            }
+                        }
+                    });
+                });
+
+
+                // start lesson-10 //
+
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    window.addEventListener("scroll", function () {
+                        let input = document.getElementById("writeles-10");
+                        
+                        if (input) {  // Check if input is not null
+                            if (window.scrollY > 740) {
+                                input.style.position = "fixed";
+                                input.style.right = "2px";
+                                input.style.top = "79px";
+                            } else {
+                                input.style.position = "static";
+                            }
+                        }
+                    });
+                });
+                
+
+                // start lesson -11 //
+
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    window.addEventListener("scroll", function () {
+                        let input = document.getElementById("writeles-11");
+                        
+                        if (input) {  // Check if input is not null
+                            if (window.scrollY > 740) {
+                                input.style.position = "fixed";
+                                input.style.right = "2px";
+                                input.style.top = "79px";
+                            } else {
+                                input.style.position = "static";
+                            }
+                        }
+                    });
+                });
+
+
+
+                //start lesson-12//
+
+
+                
+                document.addEventListener("DOMContentLoaded", function () {
+                    window.addEventListener("scroll", function () {
+                        let input = document.getElementById("writeles-12");
+                        
+                        if (input) {  // Check if input is not null
+                            if (window.scrollY > 740) {
+                                input.style.position = "fixed";
+                                input.style.right = "2px";
+                                input.style.top = "79px";
+                            } else {
+                                input.style.position = "static";
+                            }
+                        }
+                    });
+                });
+
+
+
+
+                // start lesson-13 //
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    window.addEventListener("scroll", function () {
+                        let input = document.getElementById("writeles-13");
+                        
+                        if (input) {  // Check if input is not null
+                            if (window.scrollY > 640) {
+                                input.style.position = "fixed";
+                                input.style.right = "2px";
+                                input.style.top = "79px";
+                            } else {
+                                input.style.position = "static";
+                            }
+                        }
+                    });
+                });
+                
  
 
 
