@@ -41,139 +41,6 @@ let yaataanon = document.getElementById("audio-yaa-taa-non");
 
 
 
-let innerDivLessArray = Array.from(innerDivLess);
- let stringless = " ";
-
-innerDivLessArray.forEach(btn => {
-    
-    btn.addEventListener("click", (e) => {
-   
-        
-        writeLess.value = e.target.innerText;
-
-
-        if(writeLess.value === "بنن"){
-           
-            baanonnon.play(); 
-            }
-           if(writeLess.value === "بها"){
-           
-            baahaaalif.play(); 
-            }
-           if(writeLess.value === "بحم"){
-           
-            baahaameem.play(); 
-             }
-             if(writeLess.value === "بخت"){
-           
-                baakhataa.play(); 
-                }
-                if(writeLess.value === "بة"){
-           
-                    baataa.play(); 
-                 }
-                 if(writeLess.value === "بيل"){
-           
-                    baayaalam.play(); 
-                 }
-                 if(writeLess.value === "جر"){
-           
-                    jeemraa.play(); 
-                 }
-                 
-                 if(writeLess.value === "جت"){
-           
-                    jeemtaa.play(); 
-                 }
-                 if(writeLess.value === "خز"){
-           
-                    khazaa.play(); 
-                 }
-                 if(writeLess.value === "نبل"){
-           
-                    nonbaalam.play(); 
-                 }
-                 if(writeLess.value === "نبن"){
-           
-                    nonbaanon.play(); 
-                 }
-                 if(writeLess.value === "ثثن"){
-           
-                    saasaanon.play(); 
-                 }
-                 if(writeLess.value === "ثى"){
-           
-                    saayaa.play(); 
-                 }
-                 if(writeLess.value === "سل"){
-           
-                    seenlam.play(); 
-                 }
-                 if(writeLess.value === "شل"){
-           
-                    sheenlam.play(); 
-                 }
-                 if(writeLess.value === "تحت"){
-           
-                    taahaataa.play(); 
-                 }
-                 if(writeLess.value === "تنل"){
-           
-                    taanonlam.play(); 
-                 }
-                 if(writeLess.value === "تى"){
-           
-                    taayaa.play(); 
-                 }
-
-                 if(writeLess.value === "تز"){
-           
-                    taazaa.play(); 
-                 }
-                 if(writeLess.value === "يه"){
-           
-                    yaahaaless.play(); 
-                 }
-                 if(writeLess.value === "يهب"){
-           
-                    yaahaaabaa.play(); 
-                 }
-                 if(writeLess.value === "يجب"){
-           
-                    yaajeembaa.play(); 
-                 }
-                 if(writeLess.value === "ير"){
-           
-                    yaaraa.play(); 
-                 }
-                 if(writeLess.value === "يثل"){
-           
-                    yaasaalam.play(); 
-                 }
-                 if(writeLess.value === "يتل"){
-           
-                    yaataalam.play(); 
-                 }
-                 if(writeLess.value === "يتن"){
-           
-                    yaataanon.play(); 
-                 }
-                
-
-
-
-
-           
-           else{
-            console.log("wrong")
-           }
-
-       
-
-
-    })
-})
-
 
 
 
@@ -218,6 +85,242 @@ innerDivLessonArray.forEach(btn => {
         writeLesson.value = e.target.innerText;
 
 
+
+        // start le 2 //
+
+        if( writeLesson.value === "بنن"){
+           
+         baanonnon.play(); 
+         }
+        if( writeLesson.value === "بها"){
+        
+         baahaaalif.play(); 
+         }
+        if( writeLesson.valuee === "بحم"){
+        
+         baahaameem.play(); 
+          }
+          if( writeLesson.value === "بخت"){
+        
+             baakhataa.play(); 
+             }
+             if( writeLesson.value === "بة"){
+        
+                 baataa.play(); 
+              }
+              if( writeLesson.value === "بيل"){
+        
+                 baayaalam.play(); 
+              }
+              if( writeLesson.value === "جر"){
+        
+                 jeemraa.play(); 
+              }
+              
+              if( writeLesson.value === "جت"){
+        
+                 jeemtaa.play(); 
+              }
+              if( writeLesson.value === "خز"){
+        
+                 khazaa.play(); 
+              }
+              if( writeLesson.value === "نبل"){
+        
+                 nonbaalam.play(); 
+              }
+              if( writeLesson.value === "نبن"){
+        
+                 nonbaanon.play(); 
+              }
+              if( writeLesson.value === "ثثن"){
+        
+                 saasaanon.play(); 
+              }
+              if( writeLesson.value === "ثى"){
+        
+                 saayaa.play(); 
+              }
+              if( writeLesson.value === "سل"){
+        
+                 seenlam.play(); 
+              }
+              if( writeLesson.value === "شل"){
+        
+                 sheenlam.play(); 
+              }
+              if( writeLesson.value === "تحت"){
+        
+                 taahaataa.play(); 
+              }
+              if( writeLesson.value === "تنل"){
+        
+                 taanonlam.play(); 
+              }
+              if( writeLesson.value === "تى"){
+        
+                 taayaa.play(); 
+              }
+
+              if( writeLesson.value === "تز"){
+        
+                 taazaa.play(); 
+              }
+              if( writeLesson.value === "يه"){
+        
+                 yaahaaless.play(); 
+              }
+              if( writeLesson.value === "يهب"){
+        
+                 yaahaaabaa.play(); 
+              }
+              if( writeLesson.value === "يجب"){
+        
+                 yaajeembaa.play(); 
+              }
+              if( writeLesson.value === "ير"){
+        
+                 yaaraa.play(); 
+              }
+              if( writeLesson.value === "يثل"){
+        
+                 yaasaalam.play(); 
+              }
+              if( writeLesson.value === "يتل"){
+        
+                 yaataalam.play(); 
+              }
+              if( writeLesson.value === "يتن"){
+        
+                 yaataanon.play(); 
+              }
+
+
+       
+       
+       
+       //start le 2//
+
+       if( writeLesson.value === "لا"){
+           
+         lamalif.play(); 
+        }
+        if( writeLesson.value === "با"){
+            
+         baaalif.play(); 
+        }
+        if( writeLesson.value === "لح"){
+            
+         lamhaa.play(); 
+        }
+        if( writeLesson.value === "ثا"){
+            
+         saaalif.play(); 
+        }
+        if( writeLesson.value === "بكت"){
+            
+         baakaftaa.play(); 
+        }
+        if( writeLesson.value === "بلب"){
+            
+         baalambaa.play(); 
+        }
+        if( writeLesson.value === "بس"){
+            
+         baaseen.play(); 
+        }
+        if( writeLesson.value === "كب"){
+            
+         kafbaa.play(); 
+        }
+        if( writeLesson.value === "نا"){
+            
+         noonalif.play(); 
+        }
+        if( writeLesson.value === "نس"){
+            
+         noonseen.play(); 
+        }
+        if( writeLesson.value === "ثج"){
+            
+         saajeem.play(); 
+        }
+        if( writeLesson.value === "ثس"){
+            
+         saaseen.play(); 
+        }
+        if( writeLesson.value === "تكث"){
+            
+         taakafsaa.play(); 
+        }
+        if( writeLesson.value === "تس"){
+            
+         taaseen.play(); 
+        }
+        if( writeLesson.value === "يا"){
+            
+         yaaalif.play(); 
+        }
+        if( writeLesson.value === "يس"){
+            
+         yaaseen.play(); 
+        }
+        if( writeLesson.value === "بج"){
+            
+         baajeem.play(); 
+        }
+        if( writeLesson.value === "بم"){
+            
+         baameem.play(); 
+        }
+        if(writeLesson.value === "بى"){
+            
+         baayaa.play(); 
+        }
+        if(writeLesson.value === "نخ"){
+            
+         noonkha.play(); 
+        }
+        if(writeLesson.value === "نم"){
+            
+         noonmeem.play(); 
+        }
+        if(writeLesson.value === "ني"){
+            
+         noonyaa.play(); 
+        }
+        if(writeLesson.value === "يم"){
+            
+         yaameem.play(); 
+        }
+        if(writeLesson.value === "تح"){
+            
+         taahaa.play(); 
+        }
+        if(writeLesson.value === "يح"){
+            
+         yaahaa.play(); 
+        }
+        if(writeLesson.value === "ىي"){
+            
+         yaayaa.play(); 
+        }
+        if(writeLesson.value === "تم"){
+            
+         taameem.play(); 
+        }
+        if(writeLesson.value === "كا"){
+            
+         kafalif.play(); 
+        }
+        if(writeLesson.value === "ك"){
+            
+         kaaaaf.play(); 
+        }
+       
+       
+       
+       
         if(writeLesson.value === "عر"){
            
          aieenraa.play(); 

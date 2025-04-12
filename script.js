@@ -196,122 +196,7 @@ innerDivArray.forEach(btn => {
            
         byaa.play(); 
        }
-       if(write.value === "لا"){
-           
-        lamalif.play(); 
-       }
-       if(write.value === "با"){
-           
-        baaalif.play(); 
-       }
-       if(write.value === "لح"){
-           
-        lamhaa.play(); 
-       }
-       if(write.value === "ثا"){
-           
-        saaalif.play(); 
-       }
-       if(write.value === "بكت"){
-           
-        baakaftaa.play(); 
-       }
-       if(write.value === "بلب"){
-           
-        baalambaa.play(); 
-       }
-       if(write.value === "بس"){
-           
-        baaseen.play(); 
-       }
-       if(write.value === "كب"){
-           
-        kafbaa.play(); 
-       }
-       if(write.value === "نا"){
-           
-        noonalif.play(); 
-       }
-       if(write.value === "نس"){
-           
-        noonseen.play(); 
-       }
-       if(write.value === "ثج"){
-           
-        saajeem.play(); 
-       }
-       if(write.value === "ثس"){
-           
-        saaseen.play(); 
-       }
-       if(write.value === "تكث"){
-           
-        taakafsaa.play(); 
-       }
-       if(write.value === "تس"){
-           
-        taaseen.play(); 
-       }
-       if(write.value === "يا"){
-           
-        yaaalif.play(); 
-       }
-       if(write.value === "يس"){
-           
-        yaaseen.play(); 
-       }
-       if(write.value === "بج"){
-           
-        baajeem.play(); 
-       }
-       if(write.value === "بم"){
-           
-        baameem.play(); 
-       }
-       if(write.value === "بى"){
-           
-        baayaa.play(); 
-       }
-       if(write.value === "نخ"){
-           
-        noonkha.play(); 
-       }
-       if(write.value === "نم"){
-           
-        noonmeem.play(); 
-       }
-       if(write.value === "ني"){
-           
-        noonyaa.play(); 
-       }
-       if(write.value === "يم"){
-           
-        yaameem.play(); 
-       }
-       if(write.value === "تح"){
-           
-        taahaa.play(); 
-       }
-       if(write.value === "يح"){
-           
-        yaahaa.play(); 
-       }
-       if(write.value === "ىي"){
-           
-        yaayaa.play(); 
-       }
-       if(write.value === "تم"){
-           
-        taameem.play(); 
-       }
-       if(write.value === "كا"){
-           
-        kafalif.play(); 
-       }
-       if(write.value === "ك"){
-           
-        kaaaaf.play(); 
-       }
+       
        
        
        else{
@@ -326,8 +211,41 @@ innerDivArray.forEach(btn => {
 
 
 
+// start lesson 1  //
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        let input = document.getElementById("write");
+        
+        if (input) {  // Check if input is not null
+            if (window.scrollY > 300) {
+                input.style.position = "fixed";
+                input.style.right = "2px";
+                input.style.top = "79px";
+            } else {
+                input.style.position = "static";
+            }
+        }
+    });
+});
 
 
+// start lesson 2 //
+
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        let input = document.getElementById("writele-2");
+        
+        if (input) {  // Check if input is not null
+            if (window.scrollY > 740) {
+                input.style.position = "fixed";
+                input.style.right = "2px";
+                input.style.top = "79px";
+            } else {
+                input.style.position = "static";
+            }
+        }
+    });
+});
 
 
 
