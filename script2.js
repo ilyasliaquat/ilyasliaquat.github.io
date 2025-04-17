@@ -200,6 +200,10 @@ innerDivLessonArray.forEach(btn => {
        
        
        //start le 2//
+       if(writeLesson.value === "ا"){
+           
+         alif.play(); 
+        }
 
        if( writeLesson.value === "لا"){
            
